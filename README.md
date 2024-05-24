@@ -71,7 +71,7 @@ Create a JSON file (e.g., `example.json`) with the necessary configuration detai
 }
 ```
 ## Step 2: Run the PowerShell Script
-### Save the PowerShell script below as generate_terraform_files.ps1:
+### Save the PowerShell script below as main.ps1:
 
 ```Powershell
 param (
