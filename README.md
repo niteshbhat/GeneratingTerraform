@@ -69,7 +69,7 @@ Create a JSON file (e.g., `example.json`) with the necessary configuration detai
         }
     ]
 }
-
+```
 ## Step 2: Run the PowerShell Script
 ### Save the PowerShell script below as generate_terraform_files.ps1:
 
@@ -175,17 +175,17 @@ function Main {
 Read the JSON input file
 $jsonInput = Get-Content -Path ".\example.json"
 Main -jsonInput $jsonInput
+```
 
 # Step 3: Execute the Script
 Open PowerShell and navigate to the directory containing the script and the JSON file. Run the following command to execute the script:
-
 ```PowerShell
 Copy code
 .\generate_terraform_files.ps1
-
+```
 ## Result
 Upon execution, the script will generate the following Terraform configuration files in the same directory:
 
-main.tf
-variables.tf
-outputs.tf# 
+&#8226; main.tf <br>
+&#8226; variables.tf <br>
+&#8226; outputs.tf# <br>
