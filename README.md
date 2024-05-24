@@ -73,8 +73,7 @@ Create a JSON file (e.g., `example.json`) with the necessary configuration detai
 ## Step 2: Run the PowerShell Script
 ### Save the PowerShell script below as generate_terraform_files.ps1:
 
-
-```powershell
+```Powershell
 param (
     [string]$jsonInput
 )
@@ -180,7 +179,7 @@ Main -jsonInput $jsonInput
 # Step 3: Execute the Script
 Open PowerShell and navigate to the directory containing the script and the JSON file. Run the following command to execute the script:
 
-```powershell
+```PowerShell
 Copy code
 .\generate_terraform_files.ps1
 
